@@ -9,7 +9,7 @@ Disclaimer: Ich kann nicht garantieren, dass alle Diagrammtypen und PlantUML-Fea
 
 ## Beispiel
 
-Das Beispiel kann mit dem [PlantUML Web Server](https://www.plantuml.com/plantuml/uml/FO_1JiCm44Jl_ehbrXvItzi3BK88f5OWKJx0JIQrHRoErXiXYlXtObTb3vRNCvxHkrEF23fvfLvI9AywvhMruhvMvw1-EaqPqYPMiAxQ56q_90cE6TDdaDQ3xSFpiHa7nph5eQbvLj1dw-6wRACBRCqsgvDYCARUp3WVGKDYEWIbj_Bzux2d7qFpX9uMEwOEGdFu_PBKWsdnZRoi-hfO0nUnUN9o0c_gEoS53UYrRcME5Uzr1DDxcgG5_KiJAuGEByTc7oxWInN0NKsvrkmuZu82sO4UWpkBYn7NBWmPjE2ql5ax2FArS7FB2htvdO7JQCnsNcV-Fm00) ausprobiert werden. Das Diagramm wird durch den unten stehenden Code generiert, das Theme wird in der ersten Zeile über eine URL geladen.
+Das Beispiel kann mit dem [PlantUML Web Server](https://www.plantuml.com/plantuml/uml/FO_1IWCn48RlUOhnrXxQtDk3hOWej2XO7o3T_RU9RYRBP89GyTtTpLBd49ZyCz_7xB8wqH9xSwSU4NJsIfsaI5vro1jhnNslBq5zEPSCQH8hMDTDYhRhamJ7ZF8LfF5W-_1yMWszumcugZmhwBBrS6ssqGMsnfYgDCFu10s9wHYKtgQjZ-E1VWoD5JfQx9bQ28tC-oMf1zFYqorhl9ac0zFaUt9o1c_hFoS5zUYqTbETwb6l0vZUKv46z1yLLWWTNqwhGxY2hpK0jvKoQ_QS1y5qMWjw3EuYBaRCBlGPj604Njw6MmZohDpUQA4ploPh6inkx4hi_m00) ausprobiert werden. Das Diagramm wird durch den unten stehenden Code generiert, das Theme wird in der ersten Zeile über eine URL geladen.
 
 ![](beispiel.png)
 
@@ -19,14 +19,14 @@ Das Beispiel kann mit dem [PlantUML Web Server](https://www.plantuml.com/plantum
 
 start
 partition Mit PlantUML {
-    if (An der BHT?) then (yes)
+    if (An der BHT?) then (ja)
     :UML in BHT-Farben;
     note left
         Theme Open Source 
         unter MIT-Lizenz
     end note
     :Ansprechende Diagramme;
-    else (no)
+    else (nein)
     :Anderes Theme;
     endif
 }
